@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body{
+	margin: 0;
+	background-color: royalblue;
+}
+
+.splash{
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	margin: 10rem auto;
+	max-width: 85%;
+	flex-wrap: wrap;
+}
+
+.sky {
+	 box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    margin: 0 1rem 4rem;
+    padding: 0 1.5rem 1.5rem;
+    background-color: white;
+    border-radius: .5rem;
+		max-width: 20rem;
+}
+
+.splash .sky img{
+	max-width: 100%;
+	margin-top: -2rem;
+	border-radius: .5rem;
+  object-fit: cover;
+}
+
+.splash .sky .text {
+	height: 0;
+	overflow: hidden;
+	transition: 0.4s ease-in-out;
+}
+
+.sky:hover .text{
+	height: 10rem;
+}
