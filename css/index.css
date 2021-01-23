@@ -12,7 +12,7 @@ body{
 	display: flex;
 	align-items: flex-start;
 	justify-content: center;
-	margin: 10rem auto;
+	margin: 5rem 2rem;
 	max-width: 85%;
 	flex-wrap: wrap;
 }
